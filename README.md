@@ -6,12 +6,15 @@ Este repositorio contiene la implementación de tres algoritmos clásicos, desar
 - **Búsqueda del valor máximo en un arreglo:** Recorre un arreglo de `N` enteros y devuelve el valor máximo encontrado.
 - **Factorial de un número (N!):** Calcula el factorial de un número `N` utilizando un bucle iterativo.
 
+Además, se incluyen versiones en **Python** para visualizar estos algoritmos en un código de alto nivel, facilitando su comprensión y comparación con el ensamblador.
+
 ---
 
 ## Tecnologías y herramientas
 
 - **MIPS**: Ensamblador para MIPS, compatible con el simulador [MARS](https://dpetersanderson.github.io/download.html)
 - **RISC-V**: Código en ensamblador para arquitectura RISC-V (se especifica en cada carpeta o archivo)
+- **Python**: Implementaciones de los mismos algoritmos en código de alto nivel para facilitar el aprendizaje y pruebas rápidas.
 
 ---
 
@@ -26,10 +29,10 @@ Este repositorio contiene la implementación de tres algoritmos clásicos, desar
 
 3. Ejecutar el programa y seguir las instrucciones en consola.
 
----
+### Para ejecutar los algoritmos en Python
 
-## Consideraciones
+1. Asegurarse de tener Python instalado (versión 3.x recomendada).
 
-- Los valores de entrada para el cálculo del factorial deben estar en el rango permitido para evitar overflow (generalmente `0 <= N <= 12` en MIPS con enteros de 32 bits).
-- Para otros algoritmos, se recomienda modificar los arreglos y valores directamente en el código fuente antes de ejecutar.
-- El código está comentado para facilitar la comprensión de cada paso y registro usado.
+2. Ejecutar los scripts `.py` correspondientes usando el intérprete de Python, por ejemplo:  
+   ```bash
+   python suma_arreglo.py
