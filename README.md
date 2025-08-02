@@ -36,3 +36,11 @@ Además, se incluyen versiones en **Python** para visualizar estos algoritmos en
 2. Ejecutar los scripts `.py` correspondientes usando el intérprete de Python, por ejemplo:  
    ```bash
    python suma_arreglo.py
+
+#### Para ejecutar los algoritmos en RISCV
+1. Descargar e instalar el simulador RAS desde:  
+   [https://github.com/TheThirdOne/RARS/releases](https://github.com/TheThirdOne/RARS/releases)
+
+2. Abrir el archivo `.asm` correspondiente en RARS.
+
+3. Para Ejecutarlo debes ir a la parte de Arriba presionar "Run", luego "Assemble" y ya "Go" con esto en consola ya estaria ejecutado y listo para ingresar los numeros .
